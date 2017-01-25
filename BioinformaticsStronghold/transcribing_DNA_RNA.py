@@ -25,10 +25,10 @@ def dna_to_rna(dna_sequence):
 
 
 def main():
-    with open('transcribing_DNA_RNA_dataset.txt') as f:
+    with open('transcribing_dna_rna_dataset.txt') as f:
         input_dna = f.read()
 
-    with open('transcibing_DNA_RNA_output.txt', 'w') as f:
+    with open('transcribing_dna_rna_output.txt', 'w') as f:
         f.write(dna_to_rna(input_dna))
 
 

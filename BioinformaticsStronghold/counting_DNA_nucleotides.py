@@ -25,10 +25,10 @@ def count_nucleotides(dna_string):
     return nucleotide_count
 
 def main():
-    with open('counting_DNA_nucleotides_dataset.txt') as f:
+    with open('counting_dna_nucleotides_dataset.txt') as f:
         dna_sequence = f.read().strip()
 
-    with open('counting_DNA_nucleotides_output.txt', 'w') as f:
+    with open('counting_dna_nucleotides_output.txt', 'w') as f:
         for nucleotide in ['A', 'C', 'G', 'T']:
             f.write("%s " % str(count_nucleotides(dna_sequence)[nucleotide]))
 
