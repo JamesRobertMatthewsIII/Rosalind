@@ -1,3 +1,2 @@
 # pycharm file
-*.xml
-*.iml
+.idea/
